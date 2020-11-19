@@ -1,0 +1,47 @@
+@import 'base';
+
+
+.index_div {
+  border: 1px solid grey;
+  
+  height: 528px;
+}
+
+.c_size {
+
+}
+
+.c_dark {
+  padding: 4%;
+  background-color: $color6;
+  @extend %shadow;
+  .slide_text {
+    margin: 5%;
+    padding: 5%;
+    display: block;
+    float: left;
+    color: white;
+    width: 40%;
+    font-weight: bold;
+    height: 340px;
+  }
+  img{
+    padding: 2%;
+    margin-right: 5%;
+    width: 60% !important;
+  }
+
+  .c_image {
+    float: right;
+  }
+}
+
+.message_div_index {
+  color: white;
+  background-color: $color6;
+}
+
+.c_text {
+  padding: 1px !important;
+  width: 25% !important;
+}
